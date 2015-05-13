@@ -1,0 +1,20 @@
+<archetype>
+  <id>jersey-jdom2-guava</id>
+  <sources>
+    <source>src/main/java/common/guice/GuiceCommonModule.java</source>
+    <source>src/main/java/common/jdom/DocumentBuilder.java</source>
+    <source>src/main/java/common/jdom/SAXBuilderFactory.java</source>
+    <source>src/main/java/common/servlet/GuiceResourceConfig.java</source>
+    <source>src/main/java/guice/MyModule.java</source>
+    <source>src/main/java/HelloServer.java</source>
+    <source>src/main/java/MyApplication.java</source>
+  </sources>
+  <resources>
+    <resource>src/main/webapp/WEB-INF/web.xml</resource>
+    <resource>src/main/resources/logback.xml</resource>
+  </resources>
+  <testSources>
+    <source>src/test/java/common/jdom/DocumentBuilderTest.java</source>
+    <source>src/test/java/guice/MyModuleTest.java</source>
+  </testSources>
+</archetype>
